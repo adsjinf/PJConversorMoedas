@@ -12,7 +12,7 @@
 </div><br/>
 
 <h5>
-Repositório de exercício Aprenda Javascript em 1 video (+ projeto prático)
+Repositório de exercício => Aprenda Javascript em 1 video (+ projeto prático)
 </h5>
 
 https://www.youtube.com/watch?v=YqSfq1LiGvw
