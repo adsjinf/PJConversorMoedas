@@ -34,10 +34,18 @@ brlInput.addEventListener("keyup", () => {
 
 usdInput.addEventListener("blur", () =>{
     usdInput.value = formatCurrency(usdInput.value)
+    if(brlInput.value = "NaN"){
+        usdInput.value = ""
+        brlInput.value = ""
+    }
 })
 
 brlInput.addEventListener("blur", () =>{
     brlInput.value = formatCurrency(brlInput.value)
+    if(usdInput.value = "NaN"){
+        usdInput.value = ""
+        brlInput.value = ""
+    }
 })
 
 //usdInput.value = "1000,00"
